@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://caotiendat2000.github.io/TD-Manga-Studio/sitemap.xml
