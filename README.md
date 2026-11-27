@@ -8,7 +8,7 @@
 
 <h1>TD Manga Studio — Phần Mềm Dịch Truyện Tranh Manga, Manhwa, Manhua &amp; Webtoon Cho Windows</h1>
 
-<p><strong>Công cụ dịch truyện tranh toàn diện (All-in-One Studio): Quét chữ OCR đa ngôn ngữ · Xóa chữ AI LaMa · Dịch theo ngữ cảnh &amp; Từ điển nhân vật · Chèn chữ tự động TyperTools · 22 hiệu ứng SFX · Xuất file Photoshop <code>.PSD</code> nhiều layer</strong></p>
+<p><strong>Công cụ dịch truyện tranh toàn diện (All-in-One Studio): Quét chữ OCR đa ngôn ngữ · Xóa chữ AI LaMa &amp; tái tạo nền Halftone màu · Bộ 10 đầu bút Manga Vector GPU · Dịch theo ngữ cảnh &amp; Từ điển nhân vật · Chèn chữ TyperTools · 23 hiệu ứng chữ SFX · Xuất file thiết kế <code>.PSD</code> nhiều layer</strong></p>
 
 <p>
   <a href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/tag/v1.3.4"><img src="https://img.shields.io/badge/Version-1.3.4%20PRO-0284c7?style=for-the-badge" alt="Phiên bản mới nhất 1.3.4 PRO" /></a>
@@ -17,19 +17,21 @@
   <a href="#tinh-nang"><img src="https://img.shields.io/badge/UI-Rust%20Native%20%2B%20Offline%20AI-f59e0b?style=for-the-badge" alt="Rust Native UI và Offline AI" /></a>
 </p>
 
-<h3>
-  <a href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe">⬇️ Tải Bản Cài Đặt Nhanh v1.3.4 (Khuyên Dùng — 17.65 MB)</a>
-</h3>
+<p class="td-cta-row">
+  <a class="td-btn td-btn-primary" href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe"><strong>⬇️ Tải Bản Cài Đặt Nhanh v1.3.4 (17.65 MB)</strong></a><span class="td-cta-sep"> &nbsp;|&nbsp; </span><a class="td-btn td-btn-secondary" href="https://www.youtube.com/@TDMangaStudio"><strong>🎬 Xem Video Hướng Dẫn</strong></a>
+</p>
 
-<p>
+<p class="td-quick-nav">
   <a href="#tai-xuong">📦 Bộ Cài Full Offline</a> •
+  <a href="https://www.youtube.com/@TDMangaStudio">🎬 Video Hướng Dẫn</a> •
+  <a href="https://docs.google.com/document/d/1M24w0JOBJvWm7WKhD0TQ8R46eN5hpdAVg_fxj4GOcww/edit?usp=sharing">📘 Giáo Án Toàn Tập</a> •
   <a href="#anh-giao-dien">🖼️ Ảnh Giao Diện</a> •
   <a href="#tinh-nang">✨ Tính Năng</a> •
   <a href="https://github.com/caotiendat2000/TD-Manga-Studio/blob/main/CHANGELOG.md">📋 Nhật Ký Cập Nhật</a> •
   <a href="#lien-he">💬 Liên Hệ Mua Key</a>
 </p>
 
-<img src="screenshots/01_Giao_dien_chinh_TD_Manga_Studio_PRO.png" alt="Giao diện chính phần mềm dịch truyện tranh TD Manga Studio PRO trên Windows" width="100%" />
+<img src="screenshots/01_Giao_dien_chinh_TD_Manga_Studio_PRO.png" alt="Giao diện chính phần mềm dịch truyện tranh TD Manga Studio v1.3.4 PRO trên Windows" width="100%" />
 
 </div>
 
@@ -39,7 +41,7 @@
 
 **TD Manga Studio** là phần mềm chuyên dụng trên Windows dành cho **nhóm dịch truyện tranh (Scanlation / Translator / Cleaner / Typesetter)** và người dịch cá nhân, hỗ trợ trọn vẹn quy trình làm **Manga (Nhật), Manhwa / Webtoon (Hàn), Manhua (Trung) và Comic (Anh)** sang **tiếng Việt** trong một giao diện Rust siêu mượt duy nhất.
 
-Khác với các công cụ chỉ dịch thô từng ô chữ rời rạc, **TD Manga Studio** tích hợp sẵn **toàn bộ mô hình AI chạy cục bộ trên máy (Offline AI)** kết hợp bộ công cụ **Clean, Redraw, Typeset & QC chuyên sâu** giúp rút ngắn từ hàng giờ chỉnh tay xuống chỉ còn vài phút mỗi chương, đồng thời giữ chất lượng tranh và thẩm mỹ chữ chuẩn như làm trên Photoshop.
+Khác với các công cụ chỉ dịch thô từng ô chữ rời rạc, **TD Manga Studio** tích hợp sẵn **toàn bộ mô hình AI chạy cục bộ trên máy (Offline AI)** kết hợp bộ công cụ **Clean, Redraw, Typeset & QC chuyên sâu** giúp rút ngắn từ hàng giờ chỉnh tay xuống chỉ còn vài phút mỗi chương, giữ nguyên độ sắc nét của tranh gốc và hỗ trợ xuất **file thiết kế `.PSD` nhiều layer** tách riêng ảnh gốc, nền sạch và từng lớp chữ.
 
 ---
 
@@ -89,25 +91,26 @@ SHA-256: 165cb8afecbcd95f53d80f629aea8f477168dec60eaf293e91004f46433d6e1b</code>
 - Tích hợp sẵn **Manga-OCR** (chuyên tiếng Nhật đọc cực chuẩn cả chữ viết tay, furigana, dọc/ngang) và **EasyOCR** hỗ trợ **Tiếng Hàn (Manhwa), Tiếng Trung (Manhua), Tiếng Anh (Comic)**.
 - Tự động phân loại vùng chữ (thoại chính, suy nghĩ, kể chuyện, SFX) để chọn font và kiểu hiển thị phù hợp.
 
-### 2. 🧹 Xóa Chữ AI LaMa & Bộ Cọ Clean / Redraw Chuyên Nghiệp
-- **Cọ xóa AI LaMa (Anime-Manga Big-LaMa)** tái tạo nền phức tạp, hoa văn, tóc, screentone mượt mà mà không làm nhòe tranh gốc.
-- Bộ công cụ chỉnh tay đầy đủ ngay trên canvas: **Cọ tô màu / Lấp dải màu (`P`)**, **Dấu sao chép Clone Stamp (`S`)**, **Cọ vẽ nét Manga (`R`)**, **Cọ phục hồi ảnh gốc (`Y`)**, **Giữ phím `Space` để soi ảnh gốc trước/sau tức thì**, cùng hệ thống **Hoàn tác / Làm lại (`Ctrl+Z` / `Ctrl+Y`)** không giới hạn bước vẽ.
+### 2. 🧹 Xóa Chữ AI LaMa, Tái Tạo Halftone Màu & Bộ 10 Đầu Bút Manga Vector GPU
+- **Cọ xóa AI LaMa (Anime-Manga Big-LaMa)** kết hợp nâng cấp **tái tạo nền chấm bi có màu (Colored Halftone)** xử lý nền phức tạp, hoa văn, tóc và screentone màu mượt mà mà không làm nhòe tranh gốc.
+- **Bộ 10 đầu bút vẽ Manga (`R`) chạy lớp Vector GPU siêu sắc nét:** hỗ trợ vuốt nét 2 đầu, nét đôi, nét chấm đứt, **không bị mờ nét sau khi thả chuột**.
+- Đầy đủ bộ cọ chỉnh tay tốc độ cao ngay trên canvas: **Lấp dải màu (`P`)**, **Dấu sao chép Clone Stamp (`S`)**, **Cọ phục hồi ảnh gốc (`Y`)** (khôi phục chuẩn kể cả khi tô đè nét vẽ Manga & cắt gọn khung xem trước sát mép tranh), **giữ phím `Space` để soi ảnh gốc tức thì**, cùng hệ thống **Hoàn tác / Làm lại (`Ctrl+Z` / `Ctrl+Y`)** mượt mà.
 
 ### 3. 🤖 Dịch Theo Ngữ Cảnh Cả Chương & Từ Điển Nhân Vật (`F6`)
 - Dịch tự nhiên sát văn phong truyện tranh Việt Nam, nắm bắt mạch hội thoại xuyên suốt cả chương thay vì dịch rời từng câu.
 - **Từ điển Nhân vật & Xưng hô cố định (`F6`):** Khóa tên riêng, chiêu thức, địa danh và cặp xưng hô giữa các nhân vật (ví dụ: *Ta – Ngươi, Anh – Em, Sư phụ – Đồ nhi*) đồng nhất 100% từ chương 1 đến chương 1000.
 
-### 4. ✍️ Chèn Chữ Siêu Tốc TyperTools, Gradient 360°, Clipping Mask & 22 Hiệu Ứng SFX
+### 4. ✍️ Chèn Chữ Siêu Tốc TyperTools, 23 Hiệu Ứng Chữ SFX & Thao Tác Trực Tiếp Trên Tranh
 - **TyperTools tích hợp:** Đổ toàn bộ kịch bản lời thoại vào đúng từng bóng thoại chỉ trong tích tắc, tự động căn giữa và tối ưu cỡ chữ vừa khít khung thoại.
-- **Tô màu chuyển sắc Gradient 360°** tùy biến góc xoay & nhiều điểm dừng màu.
-- **Lồng ảnh họa tiết (Clipping Mask)** vào chữ cho tiêu đề / SFX cực bắt mắt.
-- **Kho 22 hiệu ứng chữ SFX có sẵn** (tan biến, uốn cong theo đường dẫn, viền nhiều lớp, đổ bóng, phát sáng, nghiêng phối cảnh...) kèm bộ **font chữ truyện tranh Việt hóa tuyển chọn** (hỗ trợ tự thêm font `.ttf`/`.otf` tùy thích).
+- **Thao tác biên tập trực tiếp siêu nhanh:** Hỗ trợ **con trỏ gõ `|` trực tiếp ngay trên tranh**, **menu chuột phải 3 cột** gọn gàng và **Sao chép / Cắt / Dán / Nhân bản hộp thoại xuyên trang (`Ctrl+C` / `Ctrl+X` / `Ctrl+V` / `Ctrl+D`)** giữ nguyên 100% hiệu ứng SFX & Gradient.
+- **Tô màu chuyển sắc Gradient 360°** tùy biến góc xoay & nhiều điểm dừng màu, **lồng ảnh họa tiết (Clipping Mask)** vào chữ tiêu đề cực bắt mắt.
+- **Kho 23 hiệu ứng chữ SFX có sẵn** — nổi bật với **#23 Lăng kính RGB tách sắc 3 lớp kiểu Manhwa**, tan biến, uốn cong theo đường dẫn, viền nhiều lớp, đổ bóng, phát sáng, nghiêng phối cảnh... kèm bộ **font chữ truyện tranh Việt hóa tuyển chọn** (tự thêm font `.ttf`/`.otf` tùy thích).
 
-### 5. 🧩 Quy Trình Làm Việc Nhóm, Kiểm Lỗi QC, Webtoon & Xuất File `.PSD`
+### 5. 🧩 Quy Trình Làm Việc Nhóm, Kiểm Lỗi QC, Webtoon & Xuất File Thiết Kế `.PSD` Nhiều Layer
 - **Xuất / Nạp kịch bản Excel & Word** giúp phân công Dịch giả – Biên tập – Typesetter cực kỳ linh hoạt.
 - **Kiểm tra lỗi toàn chương QC (`F7` / `F8`):** Tự rà soát lỗi chính tả tiếng Việt, tràn khung chữ, câu chưa dịch hoặc bóng thoại bị bỏ sót.
 - **Ghép / Cắt trang Webtoon thông minh né bóng thoại** & **Đóng dấu Logo / Watermark hàng loạt (`F12`)**.
-- **Xuất nhiều định dạng:** `PNG`, `JPG`, `WEBP`, `PDF`, `CBZ` và đặc biệt là **xuất file Photoshop `.PSD` tách riêng từng Layer chữ & Layer nền sạch** để tinh chỉnh nâng cao khi cần.
+- **Xuất đa định dạng:** `PNG`, `JPG`, `WEBP`, `PDF`, `CBZ` và đặc biệt là **xuất file thiết kế `.PSD` nhiều layer** (tách riêng ảnh gốc, nền sạch và từng lớp chữ) để tinh chỉnh nâng cao khi cần.
 
 ---
 
@@ -125,7 +128,7 @@ SHA-256: 165cb8afecbcd95f53d80f629aea8f477168dec60eaf293e91004f46433d6e1b</code>
 | :---: | :---: |
 | ![Bộ cọ vẽ nét Manga và cọ phục hồi nền gốc](screenshots/04_Bo_co_ve_net_Manga_va_phuc_hoi_nen.png) | ![Từ điển nhân vật và quản lý xưng hô cố định F6](screenshots/05_Tu_dien_nhan_vat_va_xung_ho_co_dinh_F6.png) |
 
-### Dịch tự động · Lồng thoại TyperTools · Hiệu ứng Chữ & SFX
+### Dịch tự động · Lồng thoại TyperTools · 23 Hiệu ứng Chữ SFX & Bộ Bút Vector GPU
 
 | Kết quả dịch tự động trực quan trong Studio | Lồng thoại siêu tốc TyperTools tự đổ vào bóng |
 | :---: | :---: |
@@ -135,19 +138,23 @@ SHA-256: 165cb8afecbcd95f53d80f629aea8f477168dec60eaf293e91004f46433d6e1b</code>
 | :---: | :---: |
 | ![Tô màu chuyển sắc Gradient 360 độ cho chữ SFX](screenshots/08_To_mau_chuyen_sac_Gradient_360_do.png) | ![Lồng ảnh họa tiết Clipping Mask vào chữ truyện tranh](screenshots/09_Long_anh_hoa_tiet_Clipping_Mask_vao_chu.png) |
 
-| 22 hiệu ứng chữ SFX: Tan biến & Uốn cong | Xuất/Nạp kịch bản Excel, Word & Tiện ích nhóm |
+| 23 hiệu ứng chữ SFX: Tan biến & Uốn cong | Hiệu ứng #23: Lăng kính RGB tách sắc 3 lớp Manhwa |
 | :---: | :---: |
-| ![22 hiệu ứng chữ SFX tan biến và uốn cong trong TD Manga Studio](screenshots/10_22_hieu_ung_chu_SFX_Tan_bien_va_uon_cong.png) | ![Xuất và nạp kịch bản dịch Excel Word cho nhóm dịch](screenshots/11_Xuat_nap_kich_ban_Excel_Word_va_tien_ich_nhom.png) |
+| ![23 hiệu ứng chữ SFX tan biến và uốn cong trong TD Manga Studio](screenshots/10_22_hieu_ung_chu_SFX_Tan_bien_va_uon_cong.png) | ![Hiệu ứng số 23 Lăng kính RGB tách sắc 3 lớp kiểu Manhwa](screenshots/16_Hieu_ung_23_Lang_kinh_RGB_Manhwa.png) |
 
-### Kiểm lỗi QC · Xử lý Webtoon · Xuất file Photoshop `.PSD` nhiều layer
+| Bộ 10 đầu bút vẽ Manga lớp Vector GPU sắc nét | Xuất/Nạp kịch bản Excel, Word & Tiện ích nhóm |
+| :---: | :---: |
+| ![Bộ 10 đầu bút vẽ Manga chạy lớp Vector GPU siêu sắc nét](screenshots/15_Bo_10_dau_but_ve_Manga_Vector_GPU.png) | ![Xuất và nạp kịch bản dịch Excel Word cho nhóm dịch](screenshots/11_Xuat_nap_kich_ban_Excel_Word_va_tien_ich_nhom.png) |
+
+### Kiểm lỗi QC · Xử lý Webtoon · Xuất file thiết kế `.PSD` nhiều layer
 
 | Kiểm tra lỗi toàn chương QC (`F7` / `F8`) | Ghép cắt Webtoon né bóng thoại & Đóng logo (`F12`) |
 | :---: | :---: |
 | ![Công cụ kiểm tra lỗi chính tả và chất lượng toàn chương QC F7 F8](screenshots/12_Kiem_tra_loi_toan_chuong_QC_F7_F8.png) | ![Ghép cắt ảnh Webtoon thông minh né bóng thoại và đóng logo F12](screenshots/13_Ghep_cat_Webtoon_ne_bong_thoai_va_Dong_logo_F12.png) |
 
 <div align="center">
-  <p><strong>Xuất đa định dạng (PNG, JPG, WEBP, CBZ, PDF) và file Photoshop <code>.PSD</code> nhiều layer chỉnh sửa được</strong></p>
-  <img src="screenshots/14_Xuat_nhieu_dinh_dang_va_file_PSD_nhieu_layer.png" alt="Xuất nhiều định dạng ảnh và file Photoshop PSD nhiều layer" width="90%" />
+  <p><strong>Xuất đa định dạng (PNG, JPG, WEBP, CBZ, PDF) và file thiết kế <code>.PSD</code> nhiều layer (tách riêng ảnh gốc, nền sạch và từng lớp chữ)</strong></p>
+  <img src="screenshots/14_Xuat_nhieu_dinh_dang_va_file_PSD_nhieu_layer.png" alt="Xuất nhiều định dạng ảnh và file thiết kế PSD nhiều layer tách riêng ảnh gốc, nền sạch và lớp chữ" width="90%" />
 </div>
 
 ---
@@ -167,6 +174,11 @@ SHA-256: 165cb8afecbcd95f53d80f629aea8f477168dec60eaf293e91004f46433d6e1b</code>
 
 ## 🚀 Hướng Dẫn Cài Đặt & Dùng Thử 3 Ngày Miễn Phí
 
+<div class="td-guide-box">
+  <p><strong>🎓 Tài Liệu &amp; Video Hướng Dẫn Nhanh Cho Người Mới:</strong><br />
+  Xem nhanh bộ video từng bước trên <a href="https://www.youtube.com/@TDMangaStudio"><strong>🎬 YouTube @TDMangaStudio</strong></a> hoặc đọc chi tiết <a href="https://docs.google.com/document/d/1M24w0JOBJvWm7WKhD0TQ8R46eN5hpdAVg_fxj4GOcww/edit?usp=sharing"><strong>📘 Giáo Án Toàn Tập TD Manga Studio</strong></a> để làm chủ trọn bộ quy trình Clean – Dịch – Typeset chỉ sau 10 phút.</p>
+</div>
+
 1. Tải về **[`TD_Manga_Studio_Online_Setup.exe`](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe)** (hoặc 3 file của bộ cài Full Offline).
 2. Chạy trình cài đặt, chọn thư mục muốn cài đặt *(có thể chọn ổ `C:`, `D:`, `E:`... tùy ý)* rồi bấm **Bắt Đầu Tải & Cài Đặt**.
 3. Sau khi cài xong, mở **TD Manga Studio** từ màn hình Desktop:
@@ -185,6 +197,8 @@ Nếu bạn cần tư vấn gói bản quyền (tháng / năm / vĩnh viễn), h
 - 📱 **Zalo:** [`0358266479`](https://zalo.me/0358266479)
 - 💬 **WhatsApp:** [`+84 358 266 479`](https://wa.me/84358266479) (`0358266479`)
 - 📧 **Email:** [caotiendat2000@gmail.com](mailto:caotiendat2000@gmail.com)
+- 🎬 **Kênh Video Hướng Dẫn:** [YouTube @TDMangaStudio](https://www.youtube.com/@TDMangaStudio)
+- 📘 **Giáo Án Chi Tiết:** [Giáo Án Toàn Tập TD Manga Studio](https://docs.google.com/document/d/1M24w0JOBJvWm7WKhD0TQ8R46eN5hpdAVg_fxj4GOcww/edit?usp=sharing)
 - 🐛 **Báo lỗi & Đề xuất tính năng:** Mở mục [GitHub Issues](https://github.com/caotiendat2000/TD-Manga-Studio/issues)
 
 ---
@@ -199,8 +213,8 @@ TD Manga Studio hỗ trợ nhận diện chữ (OCR) và dịch trọn bộ truy
 ### Máy tính không có card đồ họa rời (GPU NVIDIA) có chạy được TD Manga Studio không?
 **Có.** TD Manga Studio tự động nhận diện card NVIDIA CUDA để tăng tốc AI, đồng thời tự động chuyển sang chế độ **CPU ổn định** trên mọi máy tính Windows 10/11 64-bit không có card rời.
 
-### Xuất file Photoshop (`.PSD`) từ TD Manga Studio có giữ riêng từng layer để sửa tiếp không?
-**Có.** Phần mềm hỗ trợ xuất file `.PSD` tách riêng lớp tranh gốc, lớp nền đã xóa chữ sạch và các lớp văn bản, giúp nhóm dịch dễ dàng mở lại trên Adobe Photoshop để tinh chỉnh khi cần.
+### Xuất file thiết kế `.PSD` nhiều layer từ TD Manga Studio có giữ riêng từng layer để sửa tiếp không?
+**Có.** Phần mềm hỗ trợ xuất **file thiết kế `.PSD` nhiều layer** tách riêng ảnh gốc, nền sạch đã xóa chữ và từng lớp chữ, giúp nhóm dịch dễ dàng mở lại trên các trình biên tập đồ họa hỗ trợ `.PSD` để tinh chỉnh khi cần.
 
 ### Làm thế nào để dùng thử TD Manga Studio miễn phí trên Windows?
 Bạn chỉ cần tải tệp **[`TD_Manga_Studio_Online_Setup.exe`](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe)** từ trang GitHub Releases chính thức và cài đặt. Máy cài mới sẽ tự động được kích hoạt **3 ngày dùng thử miễn phí** đầy đủ tính năng.
@@ -214,9 +228,3 @@ Bạn chỉ cần tải tệp **[`TD_Manga_Studio_Online_Setup.exe`](https://git
 
 **TD Manga Studio** là phần mềm thương mại độc quyền thuộc sở hữu của **TD Studio (Cao Tiến Đạt)** — xem chi tiết tại tệp [LICENSE](https://github.com/caotiendat2000/TD-Manga-Studio/blob/main/LICENSE).  
 Kho lưu trữ này chỉ dùng để phát hành bộ cài đặt chính thức, tài liệu hướng dẫn và tiếp nhận phản hồi từ người dùng.
-
----
-
-<sub>
-  <strong>Từ khóa tìm kiếm:</strong> TD Manga Studio, phần mềm dịch truyện tranh, công cụ dịch manga tự động, phần mềm dịch manhwa webtoon manhua sang tiếng Việt, xóa chữ truyện tranh AI LaMa, Manga OCR Windows, TyperTools typesetting tự động, xuất file PSD nhiều layer truyện tranh, manga translator windows, comic translator, manhwa cleaner typesetter.
-</sub>
