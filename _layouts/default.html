@@ -9,8 +9,77 @@
     {% include head-custom.html %}
     <style>
       html { scroll-behavior: smooth; }
-      .markdown-body table { width: 100%; display: table; }
+      body { overflow-x: hidden; }
+      .markdown-body img { max-width: 100%; height: auto; }
+
+      /* Hero CTA Buttons (prominent on web, clean text links on GitHub README) */
+      .td-cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin: 20px 0 14px !important;
+      }
+      .td-cta-sep { display: none; }
+      .td-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 22px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none !important;
+        transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+        line-height: 1.3;
+      }
+      .td-btn-primary {
+        background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+        color: #ffffff !important;
+        box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35);
+      }
+      .td-btn-primary:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 24px rgba(2, 132, 199, 0.45);
+        filter: brightness(1.06);
+      }
+      .td-btn-secondary {
+        background: #0f172a;
+        color: #f8fafc !important;
+        border: 1px solid #334155;
+        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.18);
+      }
+      .td-btn-secondary:hover {
+        transform: translateY(-1px);
+        background: #1e293b;
+        box-shadow: 0 8px 18px rgba(15, 23, 42, 0.28);
+      }
+      .td-quick-nav {
+        line-height: 1.9;
+        margin-bottom: 18px !important;
+      }
+
+      /* New-user Video + Docs Guide Callout */
+      .td-guide-box {
+        background: #f0f9ff;
+        border: 1px solid #bae6fd;
+        border-left: 4px solid #0284c7;
+        border-radius: 10px;
+        padding: 14px 18px;
+        margin: 14px 0 18px;
+      }
+      .td-guide-box p { margin: 0; }
+
+      /* Clean Desktop & Mobile Tables */
+      .markdown-body table { width: 100%; display: table; border-collapse: collapse; }
       .markdown-body td, .markdown-body th { word-break: normal; }
+      .markdown-body table:not(:has(img)) th:last-child,
+      .markdown-body table:not(:has(img)) td:last-child {
+        white-space: nowrap;
+      }
+
+      /* Collapsible SHA-256 Box with full mobile wrapping */
       .markdown-body details {
         background: #f6f8fa;
         border: 1px solid #d0d7de;
@@ -25,14 +94,73 @@
       .markdown-body details pre {
         margin-top: 10px;
         margin-bottom: 0;
-        overflow-x: auto;
+        white-space: pre-wrap;
+        word-break: break-all;
+        overflow-wrap: anywhere;
+      }
+      .markdown-body details code {
+        white-space: pre-wrap;
+        word-break: break-all;
+        overflow-wrap: anywhere;
       }
       .markdown-body p img[src*="img.shields.io"] {
         margin: 3px 2px;
       }
-      @media (max-width: 720px) {
-        .markdown-body table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+      /* Mobile 375px Optimization */
+      @media (max-width: 640px) {
+        .td-cta-row { flex-direction: column; align-items: stretch; }
+        .td-btn { width: 100%; box-sizing: border-box; padding: 12px 14px; font-size: 14px; }
+
+        /* Compact 3-col download & spec tables: zero horizontal overflow */
+        .markdown-body table:not(:has(img)) {
+          display: table;
+          width: 100%;
+          font-size: 13px;
+        }
+        .markdown-body table:not(:has(img)) th,
+        .markdown-body table:not(:has(img)) td {
+          padding: 6px 8px;
+        }
+        .markdown-body table:not(:has(img)) td:first-child {
+          word-break: break-word;
+          overflow-wrap: anywhere;
+        }
+        .markdown-body table:not(:has(img)) th:nth-child(2),
+        .markdown-body table:not(:has(img)) td:nth-child(2),
+        .markdown-body table:not(:has(img)) th:last-child,
+        .markdown-body table:not(:has(img)) td:last-child {
+          white-space: nowrap;
+        }
+
+        /* 2-col image gallery tables stack cleanly into 1 large full-width column */
+        .markdown-body table:has(img),
+        .markdown-body table:has(img) thead,
+        .markdown-body table:has(img) tbody,
+        .markdown-body table:has(img) tr,
+        .markdown-body table:has(img) th,
+        .markdown-body table:has(img) td {
+          display: block;
+          width: 100% !important;
+          box-sizing: border-box;
+        }
+        .markdown-body table:has(img) tr {
+          margin-bottom: 10px;
+          border: none;
+          background: transparent !important;
+        }
+        .markdown-body table:has(img) th {
+          border-bottom: none;
+          font-size: 14px;
+          padding: 8px 10px 4px;
+        }
+        .markdown-body table:has(img) td {
+          padding: 6px 8px 12px;
+          margin-bottom: 10px;
+        }
       }
+
+      /* Commercial Copyright Footer */
       .td-footer {
         border-top: 1px solid #d8dee4;
         margin-top: 32px;
@@ -40,6 +168,7 @@
         color: #57606a;
         font-size: 13px;
         text-align: center;
+        line-height: 1.8;
       }
       .td-footer a {
         color: #0969da;
@@ -63,6 +192,8 @@
         Phần mềm thương mại độc quyền cho Windows 64-bit &middot;
         <a href="https://github.com/caotiendat2000/TD-Manga-Studio">GitHub</a> &middot;
         <a href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/latest">Releases</a> &middot;
+        <a href="https://www.youtube.com/@TDMangaStudio">YouTube</a> &middot;
+        <a href="https://docs.google.com/document/d/1M24w0JOBJvWm7WKhD0TQ8R46eN5hpdAVg_fxj4GOcww/edit?usp=sharing">Giáo Án</a> &middot;
         <a href="https://zalo.me/0358266479">Zalo: 0358266479</a> &middot;
         <a href="https://wa.me/84358266479">WhatsApp</a>
       </div>
