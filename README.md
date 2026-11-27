@@ -6,25 +6,27 @@
   <img src="screenshots/logo_light.png" alt="TD Manga Studio Logo" height="84" />
 </picture>
 
-# TD Manga Studio — Phần Mềm Dịch Truyện Tranh Manga, Manhwa, Manhua & Webtoon Cho Windows
+<h1>TD Manga Studio — Phần Mềm Dịch Truyện Tranh Manga, Manhwa, Manhua &amp; Webtoon Cho Windows</h1>
 
-**Công cụ dịch truyện tranh toàn diện (All-in-One Studio): Quét chữ OCR đa ngôn ngữ · Xóa chữ AI LaMa · Dịch theo ngữ cảnh & Từ điển nhân vật · Chèn chữ tự động TyperTools · 22 hiệu ứng SFX · Xuất file Photoshop `.PSD` nhiều layer**
+<p><strong>Công cụ dịch truyện tranh toàn diện (All-in-One Studio): Quét chữ OCR đa ngôn ngữ · Xóa chữ AI LaMa · Dịch theo ngữ cảnh &amp; Từ điển nhân vật · Chèn chữ tự động TyperTools · 22 hiệu ứng SFX · Xuất file Photoshop <code>.PSD</code> nhiều layer</strong></p>
 
-[![Phiên bản mới nhất](https://img.shields.io/badge/Version-1.3.4%20PRO-0284c7?style=for-the-badge)](https://github.com/caotiendat2000/TD-Manga-Studio/releases/tag/v1.3.4)
-[![Hệ điều hành](https://img.shields.io/badge/Windows-10%20%2F%2011%20(64--bit)-1e293b?style=for-the-badge&logo=windows)](https://github.com/caotiendat2000/TD-Manga-Studio/releases/latest)
-[![Dùng thử](https://img.shields.io/badge/D%C3%B9ng%20th%E1%BB%AD-3%20ng%C3%A0y%20mi%E1%BB%85n%20ph%C3%AD-10b981?style=for-the-badge)](#-hướng-dẫn-cài-đặt--dùng-thử-3-ngày-miễn-phí)
-[![Giao diện](https://img.shields.io/badge/UI-Rust%20Native%20%2B%20Offline%20AI-f59e0b?style=for-the-badge)](#-tính-năng-nổi-bật)
+<p>
+  <a href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/tag/v1.3.4"><img src="https://img.shields.io/badge/Version-1.3.4%20PRO-0284c7?style=for-the-badge" alt="Phiên bản mới nhất 1.3.4 PRO" /></a>
+  <a href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/latest"><img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20(64--bit)-1e293b?style=for-the-badge&amp;logo=windows" alt="Hệ điều hành Windows 10/11 64-bit" /></a>
+  <a href="#huong-dan-cai-dat"><img src="https://img.shields.io/badge/D%C3%B9ng%20th%E1%BB%AD-3%20ng%C3%A0y%20mi%E1%BB%85n%20ph%C3%AD-10b981?style=for-the-badge" alt="Dùng thử 3 ngày miễn phí" /></a>
+  <a href="#tinh-nang"><img src="https://img.shields.io/badge/UI-Rust%20Native%20%2B%20Offline%20AI-f59e0b?style=for-the-badge" alt="Rust Native UI và Offline AI" /></a>
+</p>
 
 <h3>
   <a href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe">⬇️ Tải Bản Cài Đặt Nhanh v1.3.4 (Khuyên Dùng — 17.65 MB)</a>
 </h3>
 
 <p>
-  <a href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/tag/v1.3.4">📦 Tải Bộ Cài Full Offline</a> •
-  <a href="#-hình-ảnh-giao-diện-thực-tế">🖼️ Ảnh Giao Diện</a> •
-  <a href="#-tính-năng-nổi-bật">✨ Tính Năng</a> •
-  <a href="CHANGELOG.md">📋 Nhật Ký Cập Nhật</a> •
-  <a href="#-liên-hệ-mua-key-bản-quyền--hỗ-trợ">💬 Liên Hệ Mua Key</a>
+  <a href="#tai-xuong">📦 Bộ Cài Full Offline</a> •
+  <a href="#anh-giao-dien">🖼️ Ảnh Giao Diện</a> •
+  <a href="#tinh-nang">✨ Tính Năng</a> •
+  <a href="https://github.com/caotiendat2000/TD-Manga-Studio/blob/main/CHANGELOG.md">📋 Nhật Ký Cập Nhật</a> •
+  <a href="#lien-he">💬 Liên Hệ Mua Key</a>
 </p>
 
 <img src="screenshots/01_Giao_dien_chinh_TD_Manga_Studio_PRO.png" alt="Giao diện chính phần mềm dịch truyện tranh TD Manga Studio PRO trên Windows" width="100%" />
@@ -41,27 +43,44 @@ Khác với các công cụ chỉ dịch thô từng ô chữ rời rạc, **TD 
 
 ---
 
+<a id="tai-xuong"></a>
+
 ## ⬇️ Tải Xuống Phiên Bản Mới Nhất (v1.3.4 PRO)
 
 ### Cách 1: Trình Cài Đặt Nhanh Online Setup ⭐ *(Khuyên dùng — 1 click tự động cài trọn bộ)*
 Tải duy nhất 1 file nhỏ gọn, tự động tải trọn bộ cài đặt từ GitHub Releases với tốc độ cao, kiểm tra nguyên vẹn SHA-256, hỗ trợ tạm dừng/tiếp tục và tự cài đặt hoàn chỉnh:
 
-| Tệp tải xuống | Dung lượng | Phiên bản | Tải trực tiếp |
-| :--- | :---: | :---: | :---: |
-| **`TD_Manga_Studio_Online_Setup.exe`** | `17.65 MB` | `v1.3.4 PRO` | **[⬇️ Tải Ngay](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe)** |
+| Tệp cài đặt | Dung lượng | Tải xuống |
+| :--- | :---: | :---: |
+| **`TD_Manga_Studio_Online_Setup.exe`** *(v1.3.4 PRO)* | `17.65 MB` | **[⬇️ Tải Ngay](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe)** |
 
 ### Cách 2: Bộ Cài Đặt Full Offline (3 tệp — Không cần mạng khi cài sang nhiều máy)
 Nếu bạn muốn lưu bộ cài đặt đầy đủ vào USB / ổ cứng để cài offline, tải đủ **cả 3 tệp sau để chung 1 thư mục** rồi chạy `TD_Manga_Studio_Setup.exe`:
 
-| Tệp | Dung lượng | Tải từ GitHub Release v1.3.4 | Mã kiểm tra `SHA-256` |
-| :--- | :---: | :---: | :--- |
-| `TD_Manga_Studio_Setup.exe` | `2.96 MB` | [⬇️ Tải xuống](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Setup.exe) | `400627b3101eebecba193455ffa71cefbe895ad64886b1a1d9b612b61bfe28a8` |
-| `TD_Manga_Studio_Setup-1.bin` | `1.95 GiB` | [⬇️ Tải xuống](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Setup-1.bin) | `1743aef6754c71d135cea90b58b2dc96b6a54dd5993f02b823723bc88d2db17a` |
-| `TD_Manga_Studio_Setup-2.bin` | `1.37 GiB` | [⬇️ Tải xuống](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Setup-2.bin) | `165cb8afecbcd95f53d80f629aea8f477168dec60eaf293e91004f46433d6e1b` |
+| Tệp cài đặt | Dung lượng | Tải xuống |
+| :--- | :---: | :---: |
+| `TD_Manga_Studio_Setup.exe` | `2.96 MB` | [⬇️ Tải xuống](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Setup.exe) |
+| `TD_Manga_Studio_Setup-1.bin` | `1.95 GiB` | [⬇️ Tải xuống](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Setup-1.bin) |
+| `TD_Manga_Studio_Setup-2.bin` | `1.37 GiB` | [⬇️ Tải xuống](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Setup-2.bin) |
 
-- **SHA-256 của `TD_Manga_Studio_Online_Setup.exe`:** `55e21645535a37b8bb51f39890bf4ea303cef8a104b463bc06ae2cc57c4e383c`
+<details>
+<summary><strong>🔐 Xem mã kiểm tra toàn vẹn SHA-256 (tất cả 4 tệp v1.3.4 PRO)</strong></summary>
+<pre><code>TD_Manga_Studio_Online_Setup.exe (17.65 MB)
+SHA-256: 55e21645535a37b8bb51f39890bf4ea303cef8a104b463bc06ae2cc57c4e383c
+
+TD_Manga_Studio_Setup.exe (2.96 MB)
+SHA-256: 400627b3101eebecba193455ffa71cefbe895ad64886b1a1d9b612b61bfe28a8
+
+TD_Manga_Studio_Setup-1.bin (1.95 GiB)
+SHA-256: 1743aef6754c71d135cea90b58b2dc96b6a54dd5993f02b823723bc88d2db17a
+
+TD_Manga_Studio_Setup-2.bin (1.37 GiB)
+SHA-256: 165cb8afecbcd95f53d80f629aea8f477168dec60eaf293e91004f46433d6e1b</code></pre>
+</details>
 
 ---
+
+<a id="tinh-nang"></a>
 
 ## ✨ Tính Năng Nổi Bật
 
@@ -91,6 +110,8 @@ Nếu bạn muốn lưu bộ cài đặt đầy đủ vào USB / ổ cứng đ�
 - **Xuất nhiều định dạng:** `PNG`, `JPG`, `WEBP`, `PDF`, `CBZ` và đặc biệt là **xuất file Photoshop `.PSD` tách riêng từng Layer chữ & Layer nền sạch** để tinh chỉnh nâng cao khi cần.
 
 ---
+
+<a id="anh-giao-dien"></a>
 
 ## 🖼️ Hình Ảnh Giao Diện Thực Tế
 
@@ -125,7 +146,7 @@ Nếu bạn muốn lưu bộ cài đặt đầy đủ vào USB / ổ cứng đ�
 | ![Công cụ kiểm tra lỗi chính tả và chất lượng toàn chương QC F7 F8](screenshots/12_Kiem_tra_loi_toan_chuong_QC_F7_F8.png) | ![Ghép cắt ảnh Webtoon thông minh né bóng thoại và đóng logo F12](screenshots/13_Ghep_cat_Webtoon_ne_bong_thoai_va_Dong_logo_F12.png) |
 
 <div align="center">
-  <b>Xuất đa định dạng (PNG, JPG, WEBP, CBZ, PDF) và file Photoshop <code>.PSD</code> nhiều layer chỉnh sửa được</b><br/><br/>
+  <p><strong>Xuất đa định dạng (PNG, JPG, WEBP, CBZ, PDF) và file Photoshop <code>.PSD</code> nhiều layer chỉnh sửa được</strong></p>
   <img src="screenshots/14_Xuat_nhieu_dinh_dang_va_file_PSD_nhieu_layer.png" alt="Xuất nhiều định dạng ảnh và file Photoshop PSD nhiều layer" width="90%" />
 </div>
 
@@ -142,6 +163,8 @@ Nếu bạn muốn lưu bộ cài đặt đầy đủ vào USB / ổ cứng đ�
 
 ---
 
+<a id="huong-dan-cai-dat"></a>
+
 ## 🚀 Hướng Dẫn Cài Đặt & Dùng Thử 3 Ngày Miễn Phí
 
 1. Tải về **[`TD_Manga_Studio_Online_Setup.exe`](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe)** (hoặc 3 file của bộ cài Full Offline).
@@ -149,9 +172,11 @@ Nếu bạn muốn lưu bộ cài đặt đầy đủ vào USB / ổ cứng đ�
 3. Sau khi cài xong, mở **TD Manga Studio** từ màn hình Desktop:
    - Máy mới sẽ được kích hoạt tự động **3 ngày dùng thử miễn phí đầy đủ tính năng** để bạn trải nghiệm thực tế trên truyện của mình.
    - Khi muốn nâng cấp bản quyền chính thức, bấm **"Sao chép mã máy"** trên cửa sổ bản quyền và gửi qua Zalo / WhatsApp / Email bên dưới để nhận mã kích hoạt ngay.
-4. *(Mẹo Windows SmartScreen)*: Do bộ cài là phần mềm độc lập chưa đăng ký chứng thư doanh nghiệp Windows, nếu hiện bảng xanh *Windows protected your PC*, bạn chỉ cần bấm **More info (Thông tin thêm) → Run anyway (Vẫn chạy)** — bạn luôn có thể đối chiếu mã **SHA-256** công khai ở bảng phía trên.
+4. *(Mẹo Windows SmartScreen)*: Do bộ cài là phần mềm độc lập chưa đăng ký chứng thư doanh nghiệp Windows, nếu hiện bảng xanh *Windows protected your PC*, bạn chỉ cần bấm **More info (Thông tin thêm) → Run anyway (Vẫn chạy)** — bạn luôn có thể đối chiếu mã **SHA-256** công khai ở mục tải xuống phía trên.
 
 ---
+
+<a id="lien-he"></a>
 
 ## 💬 Liên Hệ Mua Key Bản Quyền & Hỗ Trợ
 
@@ -163,6 +188,8 @@ Nếu bạn cần tư vấn gói bản quyền (tháng / năm / vĩnh viễn), h
 - 🐛 **Báo lỗi & Đề xuất tính năng:** Mở mục [GitHub Issues](https://github.com/caotiendat2000/TD-Manga-Studio/issues)
 
 ---
+
+<a id="faq"></a>
 
 ## ❓ Câu Hỏi Thường Gặp (FAQ)
 
@@ -185,11 +212,11 @@ Bạn chỉ cần tải tệp **[`TD_Manga_Studio_Online_Setup.exe`](https://git
 
 ## 📄 Bản Quyền (License)
 
-**TD Manga Studio** là phần mềm thương mại độc quyền thuộc sở hữu của **TD Studio (Cao Tiến Đạt)** — xem chi tiết tại tệp [LICENSE](LICENSE).  
+**TD Manga Studio** là phần mềm thương mại độc quyền thuộc sở hữu của **TD Studio (Cao Tiến Đạt)** — xem chi tiết tại tệp [LICENSE](https://github.com/caotiendat2000/TD-Manga-Studio/blob/main/LICENSE).  
 Kho lưu trữ này chỉ dùng để phát hành bộ cài đặt chính thức, tài liệu hướng dẫn và tiếp nhận phản hồi từ người dùng.
 
 ---
 
 <sub>
-  <b>Từ khóa tìm kiếm:</b> TD Manga Studio, phần mềm dịch truyện tranh AI, công cụ dịch manga tự động, phần mềm dịch manhwa webtoon manhua sang tiếng Việt, xóa chữ truyện tranh AI LaMa, Manga OCR Windows, TyperTools typesetting tự động, xuất file PSD nhiều layer truyện tranh, manga translator windows, comic translator AI, manhwa cleaner typesetter.
+  <strong>Từ khóa tìm kiếm:</strong> TD Manga Studio, phần mềm dịch truyện tranh, công cụ dịch manga tự động, phần mềm dịch manhwa webtoon manhua sang tiếng Việt, xóa chữ truyện tranh AI LaMa, Manga OCR Windows, TyperTools typesetting tự động, xuất file PSD nhiều layer truyện tranh, manga translator windows, comic translator, manhwa cleaner typesetter.
 </sub>
