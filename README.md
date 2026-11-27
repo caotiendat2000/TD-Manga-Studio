@@ -6,7 +6,7 @@
   <img src="screenshots/logo_light.png" alt="TD Manga Studio Logo" height="84" />
 </picture>
 
-# TD Manga Studio — Phần Mềm AI Dịch Truyện Tranh Manga, Manhwa, Manhua & Webtoon Cho Windows
+# TD Manga Studio — Phần Mềm Dịch Truyện Tranh Manga, Manhwa, Manhua & Webtoon Cho Windows
 
 **Công cụ dịch truyện tranh toàn diện (All-in-One Studio): Quét chữ OCR đa ngôn ngữ · Xóa chữ AI LaMa · Dịch theo ngữ cảnh & Từ điển nhân vật · Chèn chữ tự động TyperTools · 22 hiệu ứng SFX · Xuất file Photoshop `.PSD` nhiều layer**
 
