@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="screenshots/logo_header.png" alt="TD Manga Studio Logo" height="64" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/logo_dark.png" />
+  <source media="(prefers-color-scheme: light)" srcset="screenshots/logo_light.png" />
+  <img src="screenshots/logo_light.png" alt="TD Manga Studio Logo" height="84" />
+</picture>
 
 # TD Manga Studio — Phần Mềm AI Dịch Truyện Tranh Manga, Manhwa, Manhua & Webtoon Cho Windows
 
