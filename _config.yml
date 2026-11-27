@@ -1,7 +1,7 @@
 theme: jekyll-theme-primer
 title: "TD Manga Studio"
 tagline: "Phần Mềm Dịch Truyện Tranh Manga, Manhwa, Manhua & Webtoon Cho Windows"
-description: "TD Manga Studio — Phần mềm dịch truyện tranh Manga, Manhwa, Manhua & Webtoon trên Windows: quét chữ OCR, xóa chữ AI LaMa, chèn chữ TyperTools & xuất PSD."
+description: "TD Manga Studio — Phần mềm dịch truyện tranh Manga, Manhwa, Manhua & Webtoon trên Windows: OCR, xóa chữ AI LaMa, 10 đầu bút Vector GPU, 23 hiệu ứng SFX & xuất file .PSD nhiều layer."
 url: "https://caotiendat2000.github.io"
 baseurl: "/TD-Manga-Studio"
 lang: "vi"
@@ -13,6 +13,7 @@ social:
   name: "Cao Tiến Đạt (TD Studio)"
   links:
     - "https://github.com/caotiendat2000/TD-Manga-Studio"
+    - "https://www.youtube.com/@TDMangaStudio"
     - "https://zalo.me/0358266479"
     - "https://wa.me/84358266479"
 defaults:
