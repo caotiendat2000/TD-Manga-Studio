@@ -11,6 +11,8 @@
       html { scroll-behavior: smooth; }
       body { overflow-x: hidden; }
       .markdown-body img { max-width: 100%; height: auto; }
+      .markdown-body picture img { height: 84px; width: auto; }
+      .td-quick-nav a { white-space: nowrap; }
 
       /* Hero CTA Buttons (prominent on web, clean text links on GitHub README) */
       .td-cta-row {
@@ -74,8 +76,8 @@
       /* Clean Desktop & Mobile Tables */
       .markdown-body table { width: 100%; display: table; border-collapse: collapse; }
       .markdown-body td, .markdown-body th { word-break: normal; }
-      .markdown-body table:not(:has(img)) th:last-child,
-      .markdown-body table:not(:has(img)) td:last-child {
+      .markdown-body table:has(a[href*="/releases/"]) th:last-child,
+      .markdown-body table:has(a[href*="/releases/"]) td:last-child {
         white-space: nowrap;
       }
 
@@ -116,21 +118,23 @@
         .markdown-body table:not(:has(img)) {
           display: table;
           width: 100%;
+          table-layout: auto;
           font-size: 13px;
         }
         .markdown-body table:not(:has(img)) th,
         .markdown-body table:not(:has(img)) td {
           padding: 6px 8px;
-        }
-        .markdown-body table:not(:has(img)) td:first-child {
+          white-space: normal;
           word-break: break-word;
           overflow-wrap: anywhere;
         }
-        .markdown-body table:not(:has(img)) th:nth-child(2),
-        .markdown-body table:not(:has(img)) td:nth-child(2),
-        .markdown-body table:not(:has(img)) th:last-child,
-        .markdown-body table:not(:has(img)) td:last-child {
+        .markdown-body table:has(a[href*="/releases/"]) th:nth-child(2),
+        .markdown-body table:has(a[href*="/releases/"]) td:nth-child(2),
+        .markdown-body table:has(a[href*="/releases/"]) th:last-child,
+        .markdown-body table:has(a[href*="/releases/"]) td:last-child {
           white-space: nowrap;
+          word-break: normal;
+          overflow-wrap: normal;
         }
 
         /* 2-col image gallery tables stack cleanly into 1 large full-width column */
