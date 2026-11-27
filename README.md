@@ -164,6 +164,25 @@ Nếu bạn cần tư vấn gói bản quyền (tháng / năm / vĩnh viễn), h
 
 ---
 
+## ❓ Câu Hỏi Thường Gặp (FAQ)
+
+### TD Manga Studio hỗ trợ dịch những ngôn ngữ truyện tranh nào?
+TD Manga Studio hỗ trợ nhận diện chữ (OCR) và dịch trọn bộ truyện tranh **tiếng Nhật (Manga)**, **tiếng Hàn (Manhwa / Webtoon)**, **tiếng Trung (Manhua)** và **tiếng Anh (Comic)** sang **tiếng Việt** ngay trên máy tính Windows.
+
+### Máy tính không có card đồ họa rời (GPU NVIDIA) có chạy được TD Manga Studio không?
+**Có.** TD Manga Studio tự động nhận diện card NVIDIA CUDA để tăng tốc AI, đồng thời tự động chuyển sang chế độ **CPU ổn định** trên mọi máy tính Windows 10/11 64-bit không có card rời.
+
+### Xuất file Photoshop (`.PSD`) từ TD Manga Studio có giữ riêng từng layer để sửa tiếp không?
+**Có.** Phần mềm hỗ trợ xuất file `.PSD` tách riêng lớp tranh gốc, lớp nền đã xóa chữ sạch và các lớp văn bản, giúp nhóm dịch dễ dàng mở lại trên Adobe Photoshop để tinh chỉnh khi cần.
+
+### Làm thế nào để dùng thử TD Manga Studio miễn phí trên Windows?
+Bạn chỉ cần tải tệp **[`TD_Manga_Studio_Online_Setup.exe`](https://github.com/caotiendat2000/TD-Manga-Studio/releases/download/v1.3.4/TD_Manga_Studio_Online_Setup.exe)** từ trang GitHub Releases chính thức và cài đặt. Máy cài mới sẽ tự động được kích hoạt **3 ngày dùng thử miễn phí** đầy đủ tính năng.
+
+### TD Manga Studio có hỗ trợ cắt ghép trang Webtoon dài và chèn logo nhóm dịch không?
+**Có.** Tiện ích **Webtoon & Đóng dấu (`F12`)** hỗ trợ ghép và cắt trang dài thông minh tự động né bóng thoại, đồng thời đóng logo hoặc watermark hàng loạt cho cả chương truyện.
+
+---
+
 ## 📄 Bản Quyền (License)
 
 **TD Manga Studio** là phần mềm thương mại độc quyền thuộc sở hữu của **TD Studio (Cao Tiến Đạt)** — xem chi tiết tại tệp [LICENSE](LICENSE).  
