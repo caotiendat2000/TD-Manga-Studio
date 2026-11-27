@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "💬 Mua Key & Hỗ trợ nhanh qua Zalo (0358266479)"
+    url: "https://zalo.me/0358266479"
+    about: "Liên hệ trực tiếp tác giả TD Studio để nhận Key bản quyền hoặc hỗ trợ cài đặt nhanh."
+  - name: "📱 Liên hệ qua WhatsApp (+84 358 266 479)"
+    url: "https://wa.me/84358266479"
+    about: "Hỗ trợ khách hàng trong và ngoài nước qua WhatsApp."
+  - name: "⬇️ Tải bản cập nhật mới nhất (Releases)"
+    url: "https://github.com/caotiendat2000/TD-Manga-Studio/releases/latest"
+    about: "Tải xuống TD Manga Studio phiên bản mới nhất cho Windows 64-bit."
