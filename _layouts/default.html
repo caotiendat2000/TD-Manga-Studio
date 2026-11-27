@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'vi' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+    <style>
+      html { scroll-behavior: smooth; }
+      .markdown-body table { width: 100%; display: table; }
+      .markdown-body td, .markdown-body th { word-break: normal; }
+      .markdown-body details {
+        background: #f6f8fa;
+        border: 1px solid #d0d7de;
+        border-radius: 8px;
+        padding: 10px 14px;
+        margin: 12px 0 18px;
+      }
+      .markdown-body details summary {
+        cursor: pointer;
+        user-select: none;
+      }
+      .markdown-body details pre {
+        margin-top: 10px;
+        margin-bottom: 0;
+        overflow-x: auto;
+      }
+      .markdown-body p img[src*="img.shields.io"] {
+        margin: 3px 2px;
+      }
+      @media (max-width: 720px) {
+        .markdown-body table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      }
+      .td-footer {
+        border-top: 1px solid #d8dee4;
+        margin-top: 32px;
+        padding-top: 18px;
+        color: #57606a;
+        font-size: 13px;
+        text-align: center;
+      }
+      .td-footer a {
+        color: #0969da;
+        text-decoration: none;
+      }
+      .td-footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% unless page.url == "/" or page.url == "/index.html" %}
+      <p><a href="{{ '/' | relative_url }}">&larr; Quay lại Trang chủ TD Manga Studio</a></p>
+      {% endunless %}
+
+      {{ content }}
+
+      <div class="td-footer">
+        <strong>&copy; 2026 TD Studio (Cao Tiến Đạt). All Rights Reserved.</strong><br>
+        Phần mềm thương mại độc quyền cho Windows 64-bit &middot;
+        <a href="https://github.com/caotiendat2000/TD-Manga-Studio">GitHub</a> &middot;
+        <a href="https://github.com/caotiendat2000/TD-Manga-Studio/releases/latest">Releases</a> &middot;
+        <a href="https://zalo.me/0358266479">Zalo: 0358266479</a> &middot;
+        <a href="https://wa.me/84358266479">WhatsApp</a>
+      </div>
+    </div>
+  </body>
+</html>
